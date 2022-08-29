@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AnimatorPuertaAbajo
+  m_TargetType:
+    m_NativeTypeID: 1107
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[0].m_State
+    value: 
+    objectReference: {fileID: -418120843175366541, guid: b3e9f9fc823230d47a150db4ab605bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[0].m_Position.x
+    value: 190
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[0].m_Position.y
+    value: 140
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[0].m_Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[1].m_State
+    value: 
+    objectReference: {fileID: -9004755336804608485, guid: b3e9f9fc823230d47a150db4ab605bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[1].m_Position.x
+    value: 490
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[1].m_Position.y
+    value: 170
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[1].m_Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[2].m_State
+    value: 
+    objectReference: {fileID: 8856797074326830538, guid: b3e9f9fc823230d47a150db4ab605bc9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[2].m_Position.x
+    value: 410
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[2].m_Position.y
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStates.Array.data[2].m_Position.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ChildStateMachines.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnyStateTransitions.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EntryTransitions.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_StateMachineTransitions.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_StateMachineBehaviours.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnyStatePosition.x
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnyStatePosition.y
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnyStatePosition.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EntryPosition.x
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EntryPosition.y
+    value: 80
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EntryPosition.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExitPosition.x
+    value: 800
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExitPosition.y
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExitPosition.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ParentStateMachinePosition.x
+    value: 800
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ParentStateMachinePosition.y
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ParentStateMachinePosition.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_DefaultState
+    value: 
+    objectReference: {fileID: -418120843175366541, guid: b3e9f9fc823230d47a150db4ab605bc9, type: 2}
+  m_ExcludedProperties: []
