@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6817638360860843947}
   - component: {fileID: 6817638360860843945}
+  - component: {fileID: 6295205956782912050}
   - component: {fileID: 6817638360860843946}
   m_Layer: 0
   m_Name: Camera
@@ -75,6 +76,21 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &6295205956782912050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6817638360860843948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af26be9c598323e419066c9e2cee2567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdArea: {fileID: 0}
+  pickupRange: 5
+  pickupForce: 150
 --- !u!81 &6817638360860843946
 AudioListener:
   m_ObjectHideFlags: 0
@@ -180,7 +196,7 @@ MonoBehaviour:
   viewInputMethods: 0
   FOVKickAmount: 10
   FOVSensitivityMultiplier: 0.74
-  rotateCharaterToCameraForward: 0
+  rotateCharacterToCameraForward: 0
   maxCameraDistance: 8
   cameraObstructionIgnore:
     serializedVersion: 2
@@ -199,7 +215,7 @@ MonoBehaviour:
   canSprint: 1
   isSprinting: 0
   toggleSprint: 0
-  sprintOveride: 0
+  sprintOverride: 0
   canCrouch: 1
   isCrouching: 0
   toggleCrouch: 0
@@ -228,7 +244,7 @@ MonoBehaviour:
   isSliding: 0
   canSlide: 1
   slidingDeceleration: 78
-  slidingTransisionSpeed: 4
+  slidingTransitionSpeed: 4
   maxFlatSlideDistance: 10
   currentGroundInfo:
     isInContactWithGround: 0
